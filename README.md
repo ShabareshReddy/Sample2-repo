@@ -53,3 +53,37 @@ ls---list files and folders
    normal files--which can we see
    hidden files--which csnnot see
 command for hidden files  ls -a [all files]
+
+
+-------Untracked Files
+       New files that git doesnot yet track
+
+-----Modified 
+       Changed
+
+----Staged
+        file is ready to be committed
+
+-----unmodified
+        unchanged
+
+add(Staged)-----it is not committed it is before commited step
+   |
+   |
+   >>commit
+
+add-- >>adds new or changed files in your working directory to the git staging area
+     >>> git add <file name>
+
+commit-->>it is the record of change
+
+    >>>>git commit-m "some message"[m-message]
+
+
+------ git add .[ all files added]
+
+---Push Command----
+Push--upload local repo content to remote repo
+    git push origin main
+
+    Remote[Git hub] <<<<----Push----- Local[vs code]
