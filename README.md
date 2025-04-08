@@ -85,5 +85,11 @@ commit-->>it is the record of change
 ---Push Command----
 Push--upload local repo content to remote repo
     git push origin main
+                |     |>>branch
+                |
+                >>git-hub repo
+
+
+
 
     Remote[Git hub] <<<<----Push----- Local[vs code]
